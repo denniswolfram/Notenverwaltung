@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FSZNotenVerwaltung\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-07 10:57+0200\n"
+"PO-Revision-Date: 2020-10-02 14:56+0200\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: André Noack <noack@data-quest.de>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: templates/main.php:5
+msgid "Noten an Sekretariat schicken"
+msgstr "Send results to the secretary"
+
+#: templates/main.php:7
+#, php-format
+msgid "%s: Kursresultate abgeschlossen"
+msgstr "%s: course results completed"
+
+#: templates/main.php:8
+#, php-format
+msgid "Die Noten der Veranstaltung %s sind vollständig eingetragen."
+msgstr "All the course results for %s have been entered."
+
+#: templates/main.php:12
+msgid "Eine Niveaustufe für alle Teilnehmer:"
+msgstr "One level for all course participants:"
+
+#: templates/main.php:21
+msgid "Unterschiedliche Niveaustufen für jeden Teilnehmer:"
+msgstr "Different levels for individual participants:"
+
+#: templates/main.php:26
+msgid "Niveau setzen"
+msgstr "Set level"
+
+#: templates/main.php:33 FszNotenVerwaltung.class.php:369
+msgid "Nachname"
+msgstr "surname"
+
+#: templates/main.php:34 FszNotenVerwaltung.class.php:379
+msgid "Vorname"
+msgstr "first name"
+
+#: templates/main.php:36 FszNotenVerwaltung.class.php:390
+msgid "Niveau"
+msgstr "Level"
+
+#: templates/main.php:37
+msgid "TS/LB"
+msgstr "Certificate of participation/ Certificate of achievement"
+
+#: templates/main.php:38 templates/main.php:113
+#: FszNotenVerwaltung.class.php:410 FszNotenVerwaltung.class.php:563
+msgid "mit Erfolg bestanden"
+msgstr "passed"
+
+#: templates/main.php:52 FszNotenVerwaltung.class.php:448
+msgid "Gesamtnote"
+msgstr "Overall result"
+
+#: templates/main.php:53
+msgid "geändert"
+msgstr "changed"
+
+#: templates/main.php:130 templates/config.php:74
+msgid "Eingaben abspeichern"
+msgstr "Save changes"
+
+#: templates/main.php:132
+msgid "Eingabe abbrechen"
+msgstr "Cancel changes"
+
+#: templates/main_student.php:3
+msgid "Noten für:"
+msgstr "Results for:"
+
+#: templates/main_student.php:5
+msgid "Niveau:"
+msgstr "Level:"
+
+#: templates/main_student.php:11
+msgid "Einzelnote"
+msgstr "Partial mark"
+
+#: templates/main_student.php:21
+msgid "Mit Erfolg bestanden"
+msgstr "Passed"
+
+#: templates/main_student.php:25
+msgid "Gesamtnote:"
+msgstr "Overall result:"
+
+#: templates/config.php:4 FszNotenVerwaltungPlugin.class.php:66
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: templates/config.php:9
+msgid "Angezeigter Name in der Menüleiste: "
+msgstr "Name displayed in the menu bar:"
+
+#: templates/config.php:16
+msgid "Eigene Benotung für Teilnehmer sichtbar:"
+msgstr "Participant's marks visible to participant:"
+
+#: templates/config.php:19
+msgid "nie"
+msgstr "never"
+
+#: templates/config.php:21
+msgid "wenn Benotung abgeschlossen"
+msgstr "when marking has finished"
+
+#: templates/config.php:23
+msgid "bereits für Teilnoten"
+msgstr "even for partial marks"
+
+#: templates/config.php:31
+msgid "UNIcert Teilnoten: "
+msgstr "UNIcert partial marks:"
+
+#: templates/config.php:32
+msgid "Ja"
+msgstr "Yes"
+
+#: templates/config.php:33
+msgid "Nein"
+msgstr "No"
+
+#: templates/config.php:41
+msgid "Einzelnoten mit Gewichtung:"
+msgstr "Partial marks weighted:"
+
+#: templates/config.php:49
+msgid "Beschreibung:"
+msgstr "Description:"
+
+#: templates/config.php:52
+msgid "Gewichtung:"
+msgstr "Weighting:"
+
+#: templates/config.php:67
+msgid "Neue Note hinzufügen"
+msgstr "Add new partial mark"
+
+#: templates/config.php:77
+msgid "Eingaben abbrechen"
+msgstr "Cancel changes"
+
+#: FszNotenVerwaltung.class.php:329 FszNotenVerwaltungPlugin.class.php:44
+msgid "Notenverwaltung"
+msgstr "Management of marks"
+
+#: FszNotenVerwaltung.class.php:353
+msgid "Notenvergabe"
+msgstr "Allocation of marks"
+
+#: FszNotenVerwaltung.class.php:400
+msgid "Schein"
+msgstr "Certificate of achievement"
+
+#: FszNotenVerwaltung.class.php:458
+msgid "Geändert am"
+msgstr "Changed on"
+
+#: FszNotenVerwaltung.class.php:468
+msgid "Geändert von"
+msgstr "Changed by"
+
+#: FszNotenVerwaltungPlugin.class.php:215
+msgid "Die Summe der Gewichtung überschreitet 100%!"
+msgstr "The total percentage exceeds 100%!"
+
+#: FszNotenVerwaltungPlugin.class.php:221
+msgid ""
+"Die Summe der Gewichtung darf nicht Null sein! Bitte korrigieren Sie die "
+"Werte."
+msgstr ""
+"The total percentage must not be zero! Please correct the field values."
+
+#: FszNotenVerwaltungPlugin.class.php:224
+#: FszNotenVerwaltungPlugin.class.php:296
+msgid "Die Daten wurden gespeichert."
+msgstr "The data have been saved."
+
+#: FszNotenVerwaltungPlugin.class.php:229
+msgid "Ein Fehler ist aufgetreten. Die Werte konnten nicht gespeichert werden."
+msgstr "An error occurred. The values could not be saved."
+
+#: FszNotenVerwaltungPlugin.class.php:236
+msgid "Die Einzelnote wurde gelöscht."
+msgstr "A partial mark was deleted."
+
+#: FszNotenVerwaltungPlugin.class.php:259
+msgid "Leseverstehen"
+msgstr "Reading comprehension"
+
+#: FszNotenVerwaltungPlugin.class.php:260
+msgid "Schriftlicher Ausdruck"
+msgstr "Written expression"
+
+#: FszNotenVerwaltungPlugin.class.php:261
+msgid "Hörverstehen"
+msgstr "Listening comprehension"
+
+#: FszNotenVerwaltungPlugin.class.php:262
+msgid "Mündlicher Ausdruck"
+msgstr "Oral expression"
+
+#: FszNotenVerwaltungPlugin.class.php:320
+msgid "Niveau wurde für alle Teilnehmer gesetzt."
+msgstr "Level was set for all participants."
+
+#: FszNotenVerwaltungPlugin.class.php:324
+msgid "In dieser Veranstaltung sind noch keine Teilnehmer eingetragen!."
+msgstr "No participants have been registered for this course."
+
+#: FszNotenVerwaltungPlugin.class.php:327
+msgid ""
+"Sie haben noch keine Einzelnoten festgelegt. Das können sie unter "
+"\"Einstellungen\" tun."
+msgstr "You have not set up partial marks. This can be done in \"Settings\"."
+
+#: FszNotenVerwaltungPlugin.class.php:348
+msgid "Teilnehmer ohne Bewertung ausblenden"
+msgstr "Hide participants without marks"
+
+#: FszNotenVerwaltungPlugin.class.php:354
+msgid "Teilnehmer ohne Bewertung einblenden"
+msgstr "Show participants without marks"
+
+#: FszNotenVerwaltungPlugin.class.php:361
+msgid "Teilnehmerexport mit Kompetenzniveau"
+msgstr "Download the list of participants with their language levels"
+
+#: FszNotenVerwaltungPlugin.class.php:369
+msgid "Download der Noten als Excel Datei"
+msgstr "Download marks as Excel file"
+
+#: FszNotenVerwaltungPlugin.class.php:377
+msgid "Download der Noten als LLC Export Datei"
+msgstr "Download marks as LLC Export file"
+
+#: FszNotenVerwaltungPlugin.class.php:393
+msgid "Ihre Gesamtnote steht noch nicht fest."
+msgstr "Your overall mark has not been finalised."
+
+#: FszNotenVerwaltungPlugin.class.php:396
+msgid "Es wurde für Sie noch keine Teilnote eingetragen."
+msgstr "Your partial mark has not been entered yet."
+
+#: FszNotenVerwaltungPlugin.class.php:396
+msgid "Sie haben eine ungültige Note eingegeben, gültige Noten sind:"
+msgstr "You have entered an invalid mark, valid marks are:"
+
+#: FszNotenVerwaltungPlugin.class.php:44
+msgid "Notenverwaltung für das Leibniz Language Centre"
+msgstr "Management of marks for Leibniz Language Centre"
