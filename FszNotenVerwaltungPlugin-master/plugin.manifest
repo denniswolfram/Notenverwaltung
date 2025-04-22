@@ -1,9 +1,0 @@
-pluginclassname=FszNotenVerwaltungPlugin
-pluginname=FszNotenVerwaltungPlugin
-origin=data-quest
-version=0.81
-studipMinVersion=4.0
-displayname=Notenverwaltung
-category=Lehr- und Lernorganisation
-description=Notenverwaltung
-descriptionlong=Ermöglicht die Eingabe von beliebig vielen Einzelnoten mit Gewichtung, Endnote wird berechnet, Teilnehmerliste mit Noten kann als Excel Tabelle exportiert werden.
