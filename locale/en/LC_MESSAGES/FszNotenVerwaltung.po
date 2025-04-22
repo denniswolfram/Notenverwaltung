@@ -6,17 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FSZNotenVerwaltung\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-07 10:57+0200\n"
-"PO-Revision-Date: 2020-10-02 14:56+0200\n"
+"Report-Msgid-Bugs-To: <your-email@example.com>\n"
+"POT-Creation-Date: 2025-04-22 15:02+0200\n"
+"PO-Revision-Date: 2025-04-22 15:02+0200\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Last-Translator: André Noack <noack@data-quest.de>\n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.8.7.1\n"
+"Language-Team: English Translation Team\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: templates/main.php:5
@@ -47,11 +47,11 @@ msgstr "Set level"
 
 #: templates/main.php:33 FszNotenVerwaltung.class.php:369
 msgid "Nachname"
-msgstr "surname"
+msgstr "Surname"
 
 #: templates/main.php:34 FszNotenVerwaltung.class.php:379
 msgid "Vorname"
-msgstr "first name"
+msgstr "First name"
 
 #: templates/main.php:36 FszNotenVerwaltung.class.php:390
 msgid "Niveau"
@@ -59,12 +59,12 @@ msgstr "Level"
 
 #: templates/main.php:37
 msgid "TS/LB"
-msgstr "Certificate of participation/ Certificate of achievement"
+msgstr "Certificate of participation/Certificate of achievement"
 
 #: templates/main.php:38 templates/main.php:113
 #: FszNotenVerwaltung.class.php:410 FszNotenVerwaltung.class.php:563
 msgid "mit Erfolg bestanden"
-msgstr "passed"
+msgstr "Passed"
 
 #: templates/main.php:52 FszNotenVerwaltung.class.php:448
 msgid "Gesamtnote"
@@ -72,7 +72,7 @@ msgstr "Overall result"
 
 #: templates/main.php:53
 msgid "geändert"
-msgstr "changed"
+msgstr "Changed"
 
 #: templates/main.php:130 templates/config.php:74
 msgid "Eingaben abspeichern"
@@ -116,15 +116,15 @@ msgstr "Participant's marks visible to participant:"
 
 #: templates/config.php:19
 msgid "nie"
-msgstr "never"
+msgstr "Never"
 
 #: templates/config.php:21
 msgid "wenn Benotung abgeschlossen"
-msgstr "when marking has finished"
+msgstr "When marking has finished"
 
 #: templates/config.php:23
 msgid "bereits für Teilnoten"
-msgstr "even for partial marks"
+msgstr "Even for partial marks"
 
 #: templates/config.php:31
 msgid "UNIcert Teilnoten: "
