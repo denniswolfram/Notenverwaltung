@@ -1,7 +1,7 @@
 pluginclassname=FszNotenVerwaltungPlugin
 pluginname=FszNotenVerwaltungPlugin
 origin=data-quest
-version=0.82
+version=0.81
 studipMinVersion=4.0
 displayname=Notenverwaltung
 category=Lehr- und Lernorganisation
